@@ -19,7 +19,7 @@ function readFile() {
  function draw(content){
    var canvas = document.getElementById("myCanvas");
    var ctx = canvas.getContext("2d");
-
+   ctx.clearRect(0, 0, canvas.width, canvas.height);
    var doc = content
    if (window.DOMParser) //хуй знае что такое ,но как поняли это парсинг ,взяли с стакоферфло
    {
