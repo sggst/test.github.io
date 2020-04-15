@@ -29,8 +29,7 @@ function readFile() {
    else // Internet Explorer
    {
        xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
-       xmlDoc.async = false;8++++9+
-
+       xmlDoc.async = false;
        xmlDoc.loadXML(doc);
    }
 
@@ -69,11 +68,6 @@ function readFile() {
  }
 </script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<app-root></app-root>
 <script type="text/javascript">
 $(document).ready(function(){
  $('.spoiler-title').click(function(){
@@ -82,4 +76,10 @@ $(document).ready(function(){
  });
 });
 </script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<app-root></app-root>
 </html>
